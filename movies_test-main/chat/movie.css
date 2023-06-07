@@ -1,0 +1,104 @@
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #Link {text-decoration: none;}
+
+  header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: white;
+    margin: 0;
+    font-size: 60px;
+  }
+  
+  .MvDetails {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .poster {
+    flex: 1;
+  }
+  
+  .details {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  #posterImg {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .Comments {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .commentForm input,
+  .commentForm textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 75%;
+  }
+  
+  .commentForm button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .commentList {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .comment button {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .comment button:first-child {
+    background-color: gray;
+  }
+  
+  .comment button:hover {
+    background-color: rgb(0, 204, 255);
+  }
+  

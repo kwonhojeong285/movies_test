@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script src="https://code.jquery.com/jquery-3.7.0.slim.js"
-        integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-     <head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,13 +11,10 @@
       rel="stylesheet"
     />
 
-    <script src="https://code.jquery.com/jquery-3.7.0.slim.js"
-        integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
-    
   </head>
 
-<body>
+  <body>
     <header>
       <div class="mvtitle">
         <h1>최고의 영화 평점 !!</h1>
@@ -29,13 +23,17 @@
     </header>
     <!--검색버튼을 구현하기 위해 만든건데 사실 이 부분이 너무 어려워서 주위분들에게 많은 도움을 받았다...!!-->
     <form class="search" onsubmit="handleSearch(event)">
-        <input type="text" id="mvInput" placeholder="영화 제목을 검색해 보세요"
-            style="width: 250px; height: 35px; font-size: 18px;" />
-        <button type="submit" id="mvsearch">검색</button>
+      <input
+        type="text"
+        id="mvInput"
+        placeholder="영화 제목을 검색해 보세요"
+        style="width: 250px; height: 35px; font-size: 18px"
+      />
+      <button type="submit" id="mvsearch">검색</button>
     </form>
-    <div class="Mvposter" id="Mvposter">
-    </div>
-    <script src="main.js"></script> <!--백앤트 파일을 연결 시켜주는중...!-->
-</body>
-
+    <div class="Mvposter" id="Mvposter"></div>
+    <script src="main.js"></script>
+    <!--백앤트 파일을 연결 시켜주는중...!-->
+  </body>
 </html>
+

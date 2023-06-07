@@ -38,7 +38,7 @@ fetch(
           movieElement.className = "movieCard";
           movieElement.innerHTML = `
                       <div onclick="movieId(${id})">
-                          <a href="/작업폴더/review.html"><img id ="image" src="https://image.tmdb.org/t/p/w300/${poster_path}"><a>
+                      <a href="work/review.html"><img id ="image" src="https://image.tmdb.org/t/p/w300/${poster_path}"><a>
                           <p>${title}</p>
                           <p>${overview}</p>
                           <p>Rating : ${vote_average}</p>
